@@ -5,7 +5,7 @@ header-img: img/home-bg.jpg
 email: marshmallowhcy@gmail.com
 description: "iOS开发者"
 keyword: "rainfox, rain, rainfox的博客, rainfox Blog, 博客, 个人网站, 互联网, iOS, Objiective-C, 开发"
-url: "https://rainfox.me"              # your host, for absolute URL
+url: "https://rain-fox.github.io"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
 
