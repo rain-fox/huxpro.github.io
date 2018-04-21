@@ -13,11 +13,20 @@ tags:
 > “UITextField 输入中文时左侧显示bug”
 
 ## 正文
+header-img: ""
+catalog: true
+tags:
+--- iOS
+
+> “UITextField 输入中文时左侧显示bug”
+
 UITextField 在使用autoLayout,并且没有限定宽度的时候，输入中文的时候会出现左侧文字显示不全。
+
 UILabel * leftView = [[UILabel alloc] initWithFrame:CGRectMake(0,0,8,25)];
 leftView.backgroundColor = [UIColor clearColor];
 _textField.leftView = leftView;
 _textField.leftViewMode = UITextFieldViewModeAlways;
+
 只需要在使用UITextView的leftView，并且设置leftViewMode = UITextFieldViewModeAlways即可
 
 
